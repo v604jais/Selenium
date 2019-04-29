@@ -1,0 +1,3 @@
+I'm new to the BufferedOutputStream class and flush concept
+ 
+new line

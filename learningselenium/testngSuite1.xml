@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practise suite">
+  <test verbose="2" name="Practise test">
+    <classes>
+      <class name="learningselenium.LearningTestNG"/>
+      <class name="learningselenium.TestNG2"/> 
+    </classes>
+  </test> <!-- Practise test -->
+</suite> <!-- Practise suite -->

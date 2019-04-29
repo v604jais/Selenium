@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20488" started-at="2019-04-23T20:53:01Z" finished-at="2019-04-23T20:53:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20488" started-at="2019-04-23T20:53:01Z" finished-at="2019-04-23T20:53:21Z">
+      <class name="learningselenium.WindowHandling">
+        <test-method status="PASS" signature="configReport()[pri:0, instance:learningselenium.WindowHandling@42d80b78]" name="configReport" is-config="true" duration-ms="1413" started-at="2019-04-24T02:23:01Z" finished-at="2019-04-24T02:23:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configReport -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:learningselenium.WindowHandling@42d80b78]" name="register" is-config="true" duration-ms="14" started-at="2019-04-24T02:23:02Z" finished-at="2019-04-24T02:23:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void learningselenium.WindowHandling.Window()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="Window()[pri:0, instance:learningselenium.WindowHandling@42d80b78]" name="Window" duration-ms="17764" started-at="2019-04-24T02:23:02Z" finished-at="2019-04-24T02:23:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Window -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:learningselenium.WindowHandling@42d80b78]" name="captureStatus" is-config="true" duration-ms="73" started-at="2019-04-24T02:23:20Z" finished-at="2019-04-24T02:23:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Window status=SUCCESS method=WindowHandling.Window()[pri:0, instance:learningselenium.WindowHandling@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:learningselenium.WindowHandling@42d80b78]" name="cleanUp" is-config="true" duration-ms="1151" started-at="2019-04-24T02:23:20Z" finished-at="2019-04-24T02:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- learningselenium.WindowHandling -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
