@@ -14,6 +14,7 @@ public class Readingfromexcel {
 	public static void main(String[] args) {
 		
 		String path = System.getProperty("user.dir");
+		System.out.println(path);
 		path=path+"\\TestData\\TestExcel.xlsx";
 		
 		try {
@@ -21,7 +22,7 @@ public class Readingfromexcel {
 			FileInputStream fi=new FileInputStream(path);  
 			
 			XSSFWorkbook wb = new XSSFWorkbook(fi);
-			XSSFSheet sheet = wb.getSheetAt(0);
+			XSSFSheet sheet = wb.getSheet("Sheet1");
 			int rowCount = sheet.getLastRowNum();
             
 			for (int i=1;i<=rowCount;i++) {
@@ -36,6 +37,7 @@ public class Readingfromexcel {
 
 			
 			}
+			fi.close();
 			wb.close();
 			
 			
@@ -46,11 +48,12 @@ public class Readingfromexcel {
 		
 		// write 
 try {
-			FileInputStream fi=new FileInputStream(path);
-			FileOutputStream fo=new FileOutputStream(path);  
+			//FileInputStream fi=new FileInputStream(path);
 			
-			XSSFWorkbook wb = new XSSFWorkbook(fi);
-			XSSFSheet sheet = wb.getSheetAt(0);
+			
+			XSSFWorkbook wb = new XSSFWorkbook();
+			XSSFSheet sheet = wb.getSheet("Sheet2");
+			FileOutputStream fo=new FileOutputStream(path);  
 			Row row=sheet.getRow(3);
 			Cell cell=row.getCell(0);
 			short cellCount=2;
@@ -60,13 +63,14 @@ try {
 			{
 			 
 				cell.setCellType(CellType.STRING);
-				cell.setCellValue("Vishal");
+				cell.setCellValue("Bipul");
 				wb.write(fo);
 			}
 		
 
 			
 			}
+			fo.close();
 			wb.close();
 			
 			
