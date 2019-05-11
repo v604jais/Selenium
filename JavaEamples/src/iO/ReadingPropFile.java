@@ -15,7 +15,8 @@ public class ReadingPropFile {
 			System.out.println(fin.available());
 			Properties prop= new Properties();
 			prop.load(fin);
-			 System.out.println(prop.get("Name"));
+			 System.out.println(prop.getProperty("URL"));
+			
 			
 		} catch (Exception e) {
 			
