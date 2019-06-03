@@ -13,6 +13,14 @@ public class Ternary {
 		short c=10,d=10;
 		int e=c+d;
 		System.out.println(e);
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
