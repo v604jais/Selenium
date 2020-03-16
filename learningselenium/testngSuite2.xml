@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practise suite2">
+  <listeners>
+      <listener class-name="learningselenium.Listener"/>
+  </listeners>
+  
+  <test verbose="2" name="Practise test2">
+    <classes>
+      <class name="learningselenium.ListenerExapmle"/>
+      <!--class name="learningselenium.TreeSetExample"/>
+      <class name="learningselenium.TreeSetExample2"/--> 
+    </classes>
+  </test> <!-- Practise test -->
+</suite> <!-- Practise suite -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Practise suite2]">
+  <listeners>
+    <listener class-name="learningselenium.Listener"/>
+  </listeners>
+  <test name="Practise test2(failed)">
+    <classes>
+      <class name="learningselenium.ListenerExapmle">
+        <methods>
+          <include name="loginGmail"/>
+        </methods>
+      </class> <!-- learningselenium.ListenerExapmle -->
+    </classes>
+  </test> <!-- Practise test2(failed) -->
+</suite> <!-- Failed suite [Practise suite2] -->
